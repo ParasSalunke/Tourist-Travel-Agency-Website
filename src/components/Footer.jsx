@@ -12,19 +12,19 @@ export default function Footer() {
         <div className="row g-5">
           <div className="col-lg-3 col-md-6">
             <h4 className="text-white mb-3">Company</h4>
-            <a className="btn btn-link" href="">
+            <a className="btn btn-link" href="/">
               About Us
             </a>
-            <a className="btn btn-link" href="">
+            <a className="btn btn-link" href="/">
               Contact Us
             </a>
-            <a className="btn btn-link" href="">
+            <a className="btn btn-link" href="/">
               Privacy Policy
             </a>
-            <a className="btn btn-link" href="">
+            <a className="btn btn-link" href="/">
               Terms &amp; Condition
             </a>
-            <a className="btn btn-link" href="">
+            <a className="btn btn-link" href="/">
               FAQs &amp; Help
             </a>
           </div>
@@ -43,10 +43,10 @@ export default function Footer() {
               info@example.com
             </p>
             <div className="d-flex pt-2">
-              <a className="btn btn-outline-light btn-social" href="">
+              <a className="btn btn-outline-light btn-social" href="/">
                 <i className="fab fa-twitter" />
               </a>
-              <a className="btn btn-outline-light btn-social" href="">
+              <a className="btn btn-outline-light btn-social" href="/">
                 <i className="fab fa-facebook-f" />
               </a>
               <a className="btn btn-outline-light btn-social" href="">

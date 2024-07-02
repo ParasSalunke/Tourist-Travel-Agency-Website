@@ -38,7 +38,7 @@ function Testimonial() {
         </div>
         <div className="owl-carousel testimonial-carousel position-relative">
           <div className="testimonial-item bg-white text-center border p-4">
-            <img
+            <img alt='im'
               className="bg-white rounded-circle shadow p-1 mx-auto mb-3"
               src="assets/img/testimonial-1.jpg"
               style={{ width: 80, height: 80 }}
@@ -51,7 +51,7 @@ function Testimonial() {
             </p>
           </div>
           <div className="testimonial-item bg-white text-center border p-4">
-            <img
+            <img alt='im'
               className="bg-white rounded-circle shadow p-1 mx-auto mb-3"
               src="assets/img/testimonial-2.jpg"
               style={{ width: 80, height: 80 }}
@@ -64,7 +64,7 @@ function Testimonial() {
             </p>
           </div>
           <div className="testimonial-item bg-white text-center border p-4">
-            <img
+            <img alt='im'
               className="bg-white rounded-circle shadow p-1 mx-auto mb-3"
               src="assets/img/testimonial-3.jpg"
               style={{ width: 80, height: 80 }}
@@ -77,7 +77,7 @@ function Testimonial() {
             </p>
           </div>
           <div className="testimonial-item bg-white text-center border p-4">
-            <img
+            <img alt='im'
               className="bg-white rounded-circle shadow p-1 mx-auto mb-3"
               src="assets/img/testimonial-4.jpg"
               style={{ width: 80, height: 80 }}
