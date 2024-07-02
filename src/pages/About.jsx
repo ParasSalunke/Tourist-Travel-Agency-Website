@@ -13,7 +13,7 @@ function About() {
           <nav aria-label="breadcrumb">
             <ol className="breadcrumb justify-content-center">
               <li className="breadcrumb-item">
-                <a href="/Home">Home</a>
+                <a href="/">Home</a>
               </li>
               {/* <li className="breadcrumb-item">
                 <a href="/Pages">Pages</a>

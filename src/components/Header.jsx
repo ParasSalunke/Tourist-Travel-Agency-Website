@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
@@ -47,31 +48,31 @@ function Header() {
           >
             <a
               className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-              href=""
+              to=""
             >
               <i className="fab fa-twitter fw-normal" />
             </a>
             <a
               className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-              href=""
+              to=""
             >
               <i className="fab fa-facebook-f fw-normal" />
             </a>
             <a
               className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-              href=""
+              to=""
             >
               <i className="fab fa-linkedin-in fw-normal" />
             </a>
             <a
               className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-              href=""
+              to=""
             >
               <i className="fab fa-instagram fw-normal" />
             </a>
             <a
               className="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
-              href=""
+              to=""
             >
               <i className="fab fa-youtube fw-normal" />
             </a>
@@ -83,13 +84,13 @@ function Header() {
     {/* Navbar & Hero Start */}
     <div className="container-fluid position-relative p-0">
       <nav className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-        <a href="" className="navbar-brand p-0">
+        <Link to="/" className="navbar-brand p-0">
           <h1 className="text-primary m-0">
             <i className="fa fa-map-marker-alt me-3" />
             Tourist
           </h1>
           {/* <img src="img/logo.png" alt="Logo"> */}
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -100,82 +101,53 @@ function Header() {
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <div className="navbar-nav ms-auto py-0">
-            <a href="/Home" className="nav-item nav-link">
+            <Link to="/" className="nav-item nav-link">
               Home
-            </a>
-            <a href="/About" className="nav-item nav-link">
+            </Link>
+            <Link to="/About" className="nav-item nav-link">
               About
-            </a>
-            <a href="/Services" className="nav-item nav-link">
+            </Link>
+            <Link to="/Services" className="nav-item nav-link">
               Services
-            </a>
-            <a href="/Packages" className="nav-item nav-link">
+            </Link>
+            <Link to="/Packages" className="nav-item nav-link">
               Packages
-            </a>
+            </Link>
             <div className="nav-item dropdown">
-              <a
-                href="#"
+              <Link
+                to="#"
                 className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
               >
                 Pages
-              </a>
+              </Link>
               <div className="dropdown-menu m-0">
-                <a href="/Destination" className="dropdown-item">
+                <Link to="/Destination" className="dropdown-item">
                   Destination
-                </a>
-                <a href="/Booking" className="dropdown-item">
+                </Link>
+                <Link to="/Booking" className="dropdown-item">
                   Booking
-                </a>
-                <a href="/Team" className="dropdown-item">
+                </Link>
+                <Link to="/Team" className="dropdown-item">
                   Travel Guides
-                </a>
-                <a href="/Testimonial" className="dropdown-item">
+                </Link>
+                <Link to="/Testimonial" className="dropdown-item">
                   Testimonial
-                </a>
-                <a href="/Error" className="dropdown-item">
+                </Link>
+                <Link to="/Error" className="dropdown-item">
                   404 Page
-                </a>
+                </Link>
               </div>
             </div>
-            <a href="/Contact" className="nav-item nav-link">
+            <Link to="/Contact" className="nav-item nav-link">
               Contact
-            </a>
+            </Link>
           </div>
-          <a href="/Home" className="btn btn-primary rounded-pill py-2 px-4">
+          <Link to="/" className="btn btn-primary rounded-pill py-2 px-4">
             Register
-          </a>
+          </Link>
         </div>
       </nav>
-      {/* <div className="container-fluid bg-primary py-5 mb-5 hero-header">
-        <div className="container py-5">
-          <div className="row justify-content-center py-5">
-            <div className="col-lg-10 pt-lg-5 mt-lg-5 text-center">
-              <h1 className="display-3 text-white mb-3 animated slideInDown">
-                Enjoy Your Vacation With Us
-              </h1>
-              <p className="fs-4 text-white mb-4 animated slideInDown">
-                Tempor erat elitr rebum at clita diam amet diam et eos erat
-                ipsum lorem sit
-              </p>
-              <div className="position-relative w-75 mx-auto animated slideInDown">
-                <input
-                  className="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5"
-                  type="text"
-                  placeholder="Eg: Thailand"
-                />
-                <button
-                  type="button"
-                  className="btn btn-primary rounded-pill py-2 px-4 position-absolute top-0 end-0 me-2"
-                  style={{ marginTop: 7 }}
-                >
-                  Search
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </div>
     {/* Navbar & Hero End */}
     </div>

@@ -142,10 +142,10 @@ export default function Footer() {
             </div>
             <div className="col-md-6 text-center text-md-end">
               <div className="footer-menu">
-                <a href="/Home">Home</a>
-                <a href="/Home">Cookies</a>
-                <a href="/Home">Help</a>
-                <a href="/Home">FQAs</a>
+                <a href="/">Home</a>
+                <a href="/">Cookies</a>
+                <a href="/">Help</a>
+                <a href="/">FQAs</a>
               </div>
             </div>
           </div>
